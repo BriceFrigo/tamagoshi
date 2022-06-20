@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#c6b893, #fff);
+    background-image: url('../img/maxresdefault.jpg');
+    background-size: 100%;
+    font-family: 'Baloo 2', cursive;
+    background-repeat: no-repeat;
+}
+img{
+    margin-left: 35vw;
+    width: 30%;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin: 0 40%;
+    background-image: url('../img/img.png');
+    background-image: border;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+a:hover{
+    border: black solid 3px;
+}
